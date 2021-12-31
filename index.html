@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS Animation</title>
+		<script
+			src="https://kit.fontawesome.com/560b9ded06.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="logo">Music-<span class="x">X</span></div>
+				<div class="menu">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Our Programs</a>
+					<a href="#">Contact</a>
+					<a href="#">Booking</a>
+				</div>
+				<div class="icon-div">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-google-plus-g"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-whatsapp"></i>
+				</div>
+			</nav>
+		</header>
+		<section>
+			<div class="music-div">
+				<h1>Music is <span class="xy"></span></h1>
+				<img src="image/guitar.gif" alt="" />
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+					fugiat architecto quis, culpa recusandae facilis suscipit, molestias
+					quos consequuntur iure aperiam fugit modi.
+				</p>
+				<button>Ready To Watch</button>
+				<button>Subscribe Now</button>
+			</div>
+		</section>
+
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			//typed.js start
+
+			var typed = new Typed(".xy", {
+				strings: ["Love", "Dream"],
+				typeSpeed: 200,
+				backSpeed: 50,
+				loop: true,
+			});
+
+			// var options = {
+			// 	strings: ["Love", " Dream"],
+			// 	typeSpeed: 200,
+			// 	backSpeed: 30,
+			// 	loop: true,
+			// };
+
+			var typed = new Typed(".xy", options);
+		</script>
+	</body>
+</html>
